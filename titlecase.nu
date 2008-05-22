@@ -1,3 +1,10 @@
+; NuTitleCase - 2008
+; Grayson Hansard (info@fromconcentratesoftware.com)
+; http://www.fromconcentratesoftware.com/
+; 
+; NuTitleCase is based on John Gruber's original Perl version
+; http://daringfireball.net/2008/05/title_case
+
 (load "Nu:beautify")
 (class NuRegex
 		(- (id) replaceAllInString:(id)text usingBlock:(id)block is
